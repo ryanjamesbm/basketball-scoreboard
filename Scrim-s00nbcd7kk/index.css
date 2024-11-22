@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    background: none;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.home-section{
+    text-align: center;
+    margin-left: auto;
+}
+
+.home-scoreboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: red;
+    font-size: 1.8em;
+    width: 100px;
+    height: 70px;
+    margin: 0 10px 5px 10px;
+}
+
+.away-section{
+    text-align: center;
+    margin-right: auto;
+}
+
+.away-scoreboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: red;
+    font-size: 1.8em;
+    width: 100px;
+    height: 70px;
+    margin: 0 10px 5px 10px;
+}
+
+#reset-button{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#reset-button button{
+    padding: 5px 15px;
+}
